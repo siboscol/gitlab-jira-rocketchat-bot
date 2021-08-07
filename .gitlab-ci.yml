@@ -1,0 +1,7 @@
+deploy_on_git_server:
+  stage: deploy
+  script:
+    - ssh your_user@host_machine -p host_port "./gitlab-jira-rocketchat-bot/deploy.sh"
+  only:
+    refs:
+      - dev
