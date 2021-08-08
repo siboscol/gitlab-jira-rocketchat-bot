@@ -1,7 +1,7 @@
 {
-  "name": "gitlab-workflow-service",
+  "name": "gitlab--jira-rocketchat-bot",
   "version": "0.0.0",
-  "description": "Service to automate Gitlab workflow and RocketChat group notification",
+  "description": "Bot to automate Gitlab and Jira notifications and group collaboration on RocketChat",
   "main": "src/index.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon src/index.js",
