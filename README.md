@@ -1,4 +1,4 @@
-# Gitlab/Jira RocketChat Bot for notification and group collaboration
+# Gitlab/Jira RocketChat Bot for notifications and group collaboration
 
 The idea of this bot is to enable notifications from Gitlab and Jira to be send to RocketChat for dev teams.
 In order to improve the workflow of a team, this bot enables team members to be up to date with Gitlab events by being notified directly on the main company chat (RocketChat).
