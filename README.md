@@ -10,6 +10,8 @@ In addition, the bot integrates with Jira to enable and facilitate incidents man
 - Gitlab events notification
   - Automatically create projects channels to allow events to be notify to the team 
   - Issues events and Merge Requests are sent to the project alert channel
+  - On Merge request created the issue linked to it is labeled as `In dev` as well as the Merge Request
+  - On Merge request ready the issue and the MR is labeled as `In Review`
 - Gitlab Group notifications
   - When Merge Request are created and reviewers are assigned, a new channel in RocketChat is created with the participents involved and all events regarding the MR are sent to the channel where collaboration is establish.
 - Jira Incidents events notification
